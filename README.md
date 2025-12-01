@@ -232,7 +232,7 @@ Incluye:
 
 # 👨‍💻 Autor
 
-**Stefano Caccia**
+**Fernández Candela**
 Estudiante — Instituto Superior de Computación Administrativa (ISCA 4014)
 2° TSAFSI — 2025
 ---
