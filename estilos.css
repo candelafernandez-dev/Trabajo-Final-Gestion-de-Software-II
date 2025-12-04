@@ -5,11 +5,11 @@
 
 /* --- 1. Variables de Color (Tema del Sistema) --- */
 :root {
-    --color-primario: #004a99;         /* Azul principal (botones, enlaces) */
-    --color-primario-oscuro: #003366; /* Azul oscuro (navegación, cabeceras) */
+    --color-primario: #004a99;         /* rosa clarito principal (botones, enlaces) */
+    --color-primario-oscuro: #003366; /* rosa oscuro (navegación, cabeceras) */
     --color-fondo: #f8f9fa;            /* Fondo general de la página (gris claro) */
     --color-tarjeta: #ffffff;         /* Fondo de modales, tablas, etc. (blanco) */
-    --color-texto: #212529;           /* Color de texto principal (casi negro) */
+    --color-texto: #212529;           /* Color de texto principal (casi rosa) */
     --color-borde: #dee2e6;           /* Color de bordes y líneas */
 }
 
@@ -44,8 +44,8 @@ h1 {
 }
 
 .btn-primary:hover {
-    background-color: var(--color-primario-oscuro);
-    border-color: var(--color-primario-oscuro);
+    background-color: var(--color-primario-claro);
+    border-color: var(--color-primario-claro);
 }
 
 /* Tablas */
@@ -56,7 +56,7 @@ h1 {
 }
 
 .table-hover tbody tr:hover {
-    background-color: rgba(0, 74, 153, 0.05); /* Sutil hover azul */
+    background-color: rgba(0, 74, 153, 0.05); /* Sutil hover celeste */
 }
 
 /* Modales (Formularios) */
@@ -93,7 +93,7 @@ h1 {
 /* Estilos para los botones de acciones en las tablas */
 .btn-accion {
     margin-right: 5px;
-    padding: 0.25rem 0.5rem; /* Botones más pequeños */
+    padding: 0.25rem 0.5rem; /* Botones más pequeño */
     font-size: 0.875rem;
 }
 
@@ -101,4 +101,5 @@ h1 {
  * pero si quisiéramos personalizarlas, lo haríamos aquí.
  * ej: .btn-editar { ... }
  * ej: .btn-eliminar { ... }
+
  */
